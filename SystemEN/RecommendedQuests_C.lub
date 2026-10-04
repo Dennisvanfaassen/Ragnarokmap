@@ -1,0 +1,13 @@
+-- [Belenor/Claude, 29/08/2026] Intentionally emptied.
+-- This file used to be an exact byte-for-byte copy of RecommendedQuests.lub
+-- (including a self-referential dofile('SystemEN/RecommendedQuests_C.lub')
+-- call at its own end - a latent infinite-recursion bug that never fired in
+-- practice, presumably because this client build's embedded Lua sandbox has
+-- no working dofile(), or script errors are swallowed silently).
+-- Full pre-edit content backed up at
+-- RecommendedQuests_C.lub.checkpoint-before-ooe-quest-trim-29-08-2026.
+-- Left present (rather than deleted) only because RecommendedQuests.lub used
+-- to dofile() this path - that call was removed too, so this file is not
+-- currently loaded by anything. Kept as a safe no-op custom-additions slot
+-- (does NOT reassign RecommendedQuestInfoList) in case it is ever referenced
+-- again.

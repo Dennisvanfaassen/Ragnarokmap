@@ -1,0 +1,42 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20250813
+
+RecommendedQuestInfoList = {}
+RecommendedQuestInfoList = {
+	[1] = {
+		Title = "Welcome to Ragnarok Online!",
+		IconName = "ico_gq.bmp",
+		Summary = "We provide help for Novice adventurer.",
+		NpcSpr = "4_F_01",
+		NpcNavi = "iz_ac01",
+		NpcPosX = 102,
+		NpcPosY = 44,
+		BgName = "reco_01.bmp",
+		QuestInfo1 = {
+			"Welcome!",
+			"The Criatura academy offers a variety of information for Novice. If you haven't visited The Criatura academy, please visit us to get useful informations and items."
+		},
+		QuestInfo2 = {
+			"$$Novice$$ welcome!!",
+			"Beginner%%Support%%Bread!!Bread!!",
+			"&*Free*& consult OK!!"
+		},
+		QuestInfo3 = {
+			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
+		}
+	}
+}
+
+-- [Belenor/Claude, 29/08/2026] Trimmed to Episode-8.3-appropriate content only.
+-- Original list recommended modern Renewal episode content (Ep.15-21, EDDA
+-- dungeons, Glastheim Challenge Mode, base level 200-250+ requirements) that
+-- does not exist on this Pre-Renewal ep8.3 server. Full original backed up at
+-- RecommendedQuests.lub.checkpoint-before-ooe-quest-trim-29-08-2026 (SystemEN/).
+-- The custom-additions dofile('SystemEN/RecommendedQuests_C.lub') call was also
+-- removed: that file was an exact duplicate of this one (including a
+-- self-referential dofile bug at its own end) - see
+-- RecommendedQuests_C.lub.checkpoint-before-ooe-quest-trim-29-08-2026 for the
+-- pre-edit copy. RecommendedQuests_C.lub itself is now an inert stub.

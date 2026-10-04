@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<clientinfo>
+	<desc>Ragnarok Client Information</desc>
+	<servicetype>korea</servicetype>
+	<servertype>primary</servertype>
+	<connection>
+		<display>Soulbound</display>
+		<balloon>Welcome to Soulbound Journey!</balloon>
+		<address>88.214.58.232</address>
+		<port>6900</port>
+		<version>55</version>
+		<langtype>1</langtype>
+		<registrationweb>https://discord.gg/SabEaguke</registrationweb>
+		<loading>
+			<image>loading00.jpg</image>
+			<image>loading01.jpg</image>
+			<image>loading02.jpg</image>
+		</loading>
+		<aid>
+			<admin>2000000</admin>
+		</aid>
+	</connection>
+</clientinfo>
